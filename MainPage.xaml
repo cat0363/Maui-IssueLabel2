@@ -5,7 +5,7 @@
 
     <Grid RowDefinitions="44,Auto" RowSpacing="5">
         <Entry x:Name="txtTest" Grid.Row="0" TextChanged="txtTest_TextChanged"  />
-        <Label x:Name="lblTest" Grid.Row="1" LineBreakMode="WordWrap" FontSize="30" VerticalOptions="Start" VerticalTextAlignment="End" BackgroundColor="Blue" TextColor="White" LineHeight="1.5" CharacterSpacing="5" />
+        <Label x:Name="lblTest" Grid.Row="1" LineBreakMode="WordWrap" FontSize="30" VerticalOptions="Start" VerticalTextAlignment="End" BackgroundColor="Blue" TextColor="White" LineHeight="1.5" CharacterSpacing="5" TextDecorations="Underline" />
     </Grid>
     
 </ContentPage>
